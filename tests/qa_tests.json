@@ -1,0 +1,22 @@
+[
+  {
+    "id": "T1",
+    "description": "Launch Obsidian and verify the app opens successfully.",
+    "expected": "PASS"
+  },
+  {
+    "id": "T2",
+    "description": "Scroll through the Obsidian home screen.",
+    "expected": "PASS"
+  },
+  {
+    "id": "T3",
+    "description": "Verify that the Appearance icon color is red.",
+    "expected": "FAIL"
+  },
+  {
+    "id": "T4",
+    "description": "Verify that a Print to PDF button exists on the home screen.",
+    "expected": "FAIL"
+  }
+]
