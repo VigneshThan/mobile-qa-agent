@@ -3,9 +3,9 @@ For this assignment, I chose **Google Agent Development Kit (ADK)** as the frame
 implementing the mobile QA multi-agent system.
 ## Why Google ADK Fits This Problem
 Google ADK is well suited for this task because it naturally supports a multi-agent architecture
-with clearly separated responsibilities. The assignment requires three distinct agents — Planner,
+with clearly separated responsibilities. The assignment requires three distinct agents - Planner,
 Executor, and Supervisor, and ADK provides a clean way to define these roles and manage
-their interactions.
+their interactions. LLM configuration is centralized through ADK, allowing the underlying model to be swapped without modifying agent logic.
 
 The Planner agent benefits from ADK’s structured reasoning and JSON-based outputs, which
 makes it easier to translate natural language test cases into concrete UI actions such as taps,
