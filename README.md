@@ -51,7 +51,7 @@ mobile_qa_agent/
 
 * Android device or emulator connected via ADB
 * Python 3.10+
-* (Optional) Gemini API key
+* Gemini API key
 
 ### Install dependencies
 
@@ -59,7 +59,7 @@ mobile_qa_agent/
 pip install -r requirements.txt
 ```
 
-### (Optional) Configure Gemini
+###  Configure Gemini
 
 ```bash
 export GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
@@ -93,10 +93,8 @@ This design highlights the **limits of non‑visual automation** and motivates f
 
 * No hard‑coded coordinates are used.
 * No fragile UI selectors are assumed.
-* Visual grounding is explicitly left as future work (see `report.md`).
+
 
 ---
 
-## License
 
-Research prototype — provided for evaluation purposes only.
