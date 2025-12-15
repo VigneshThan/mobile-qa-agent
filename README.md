@@ -89,10 +89,7 @@ This design highlights the **limits of non‑visual automation** and motivates f
 
 ---
 
-## Notes on Design Decisions
-
-* No hard‑coded coordinates are used.
-* No fragile UI selectors are assumed.
+* **Demo Video Link** : https://drive.google.com/file/d/1PIHOtYetr5xpS2VdNm_ge7FELlBGN42q/view?usp=drive_link
 
 
 ---
